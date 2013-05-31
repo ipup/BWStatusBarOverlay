@@ -629,7 +629,7 @@
     [self setProgress:0];
     _progressView.hidden = NO;
     
-    [self setStatusBarStyle:[UIApplication sharedApplication].statusBarStyle animated:NO];
+    [self setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
 }
 
 
